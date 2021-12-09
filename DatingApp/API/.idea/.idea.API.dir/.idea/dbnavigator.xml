@@ -24,11 +24,7 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes>
-      <connection connection-id="4c11aa18-ec87-4254-b918-8c11ec958269">
-        <schema name="main" object-types="table, view, column" />
-      </connection>
-    </loaded-nodes>
+    <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="4c11aa18-ec87-4254-b918-8c11ec958269">
@@ -43,9 +39,7 @@ VALUES (3,'Jane');]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="4c11aa18-ec87-4254-b918-8c11ec958269" object-ref="schemas/main/tables/Users" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="4c11aa18-ec87-4254-b918-8c11ec958269" />
