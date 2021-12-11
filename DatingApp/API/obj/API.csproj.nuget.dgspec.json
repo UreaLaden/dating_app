@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C_Sharp_Workspace\\MVC_Course\\DatingApp\\API\\API.csproj": {}
+    "B:\\dating_app\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\C_Sharp_Workspace\\MVC_Course\\DatingApp\\API\\API.csproj": {
+    "B:\\dating_app\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C_Sharp_Workspace\\MVC_Course\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "B:\\dating_app\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\C_Sharp_Workspace\\MVC_Course\\DatingApp\\API\\API.csproj",
+        "projectPath": "B:\\dating_app\\DatingApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Leaundrae\\.nuget\\packages\\",
-        "outputPath": "D:\\C_Sharp_Workspace\\MVC_Course\\DatingApp\\API\\obj\\",
+        "outputPath": "B:\\dating_app\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Leaundrae\\AppData\\Roaming\\NuGet\\NuGet.Config",
