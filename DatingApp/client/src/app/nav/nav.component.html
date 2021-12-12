@@ -1,24 +1,26 @@
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
     <div class="container">
-        <a class="navbar-brand" href="#">Dating App</a>
+        <a class="navbar-brand" routerLink="/" routerLinkActive="active">Dating App</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
             aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <ul class="navbar-nav mr-auto" *ngIf="accountService.currentUser$ | async">
-            <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Matches</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Lists</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link">Messages</a>
-            </li>
+        <ul class="navbar-nav mr-auto" >
+            <ng-container *ngIf="accountService.currentUser$ | async">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" routerLink="/members" routerLinkActive="active">Matches</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/lists" routerLinkActive="active">Lists</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/messages" routerLinkActive="active">Messages</a>
+                </li>
+            </ng-container>
         </ul>
 
-        <div class="dropdown" *ngIf="accountService.currentUser$ | async" dropdown>
-            <a class="dropdown-toggle text light" dropdownToggle >Welcome User</a>
+        <div class="dropdown" *ngIf="(accountService.currentUser$ | async) as user" dropdown>
+            <a class="dropdown-toggle text-white large" dropdownToggle >Hi {{user.username | titlecase}}!</a>
             <div class="dropdown-menu mt-3" *dropdownMenu>
                 <a class="dropdown-item">Edit Profile</a>
                 <div class="dropdown-divider"></div>
@@ -33,15 +35,15 @@
                 class="form-control me-2" 
                 type="text" 
                 placeholder="Username">
-            <span>""</span>
+            <br>
             <input
             name="password"
             [(ngModel)]="model.password"
             class="form-control me-2" 
             type="password" 
             placeholder="Password">
-            <span>""</span>
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+            <br>
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Login</button>
         </form>
     </div>
 </nav>
