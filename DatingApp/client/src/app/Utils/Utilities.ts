@@ -4,3 +4,4 @@ export const Capitalize = (stringToCapitalize:string) => {
     let remainingChars:string = stringToCapitalize.slice(1);
       return firstLetter + remainingChars;
 }
+
