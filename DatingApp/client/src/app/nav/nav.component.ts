@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { AccountService } from '../_services/account.service';
-import { Capitalize } from '../Utils/Utilities';
 import { Router } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
 
