@@ -1,5 +1,10 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
-ssl
+*.ssl
+*.dll
+*.cache
+*.pdb
+*.xml
+
 # compiled output
 /dist
 /tmp

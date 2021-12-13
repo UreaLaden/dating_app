@@ -228,3 +228,6 @@ C:\Users\Leaundrae\MVC_Course\dating_app\DatingApp\API\obj\Debug\net6.0\API.dll
 C:\Users\Leaundrae\MVC_Course\dating_app\DatingApp\API\obj\Debug\net6.0\ref\API.dll
 C:\Users\Leaundrae\MVC_Course\dating_app\DatingApp\API\obj\Debug\net6.0\API.pdb
 C:\Users\Leaundrae\MVC_Course\dating_app\DatingApp\API\obj\Debug\net6.0\API.genruntimeconfig.cache
+C:\Users\Leaundrae\MVC_Course\dating_app\DatingApp\API\bin\Debug\net6.0\Data\UserSeedData.json
+C:\Users\Leaundrae\MVC_Course\dating_app\DatingApp\API\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Leaundrae\MVC_Course\dating_app\DatingApp\API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
