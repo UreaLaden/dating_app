@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UXoAkOWGs0oUOeTsrHiwdhztxl8CiX0A+7Z6fKTqNaTysIfHG5eWfnTMHGGhUnHjmzxjsWC/lf9cuOApWHv50w==",
+  "dgSpecHash": "zShza4J4j83Gwj2ke39RDzsZlA9PqA63HuhFtwZcoL9RDyc7qR6myJJ6D74BUdVkXxnRJ/bEOC+Xtwdq0MflBQ==",
   "success": true,
-  "projectFilePath": "C:\\Documents and Settings\\Leaundrae\\MVC_Course\\dating_app\\DatingApp\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\Leaundrae\\MVC_Course\\dating_app\\DatingApp\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Leaundrae\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Leaundrae\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

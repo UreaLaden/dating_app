@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Documents and Settings\\Leaundrae\\MVC_Course\\dating_app\\DatingApp\\API\\API.csproj": {}
+    "C:\\Users\\Leaundrae\\MVC_Course\\dating_app\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Documents and Settings\\Leaundrae\\MVC_Course\\dating_app\\DatingApp\\API\\API.csproj": {
+    "C:\\Users\\Leaundrae\\MVC_Course\\dating_app\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Documents and Settings\\Leaundrae\\MVC_Course\\dating_app\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Leaundrae\\MVC_Course\\dating_app\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Documents and Settings\\Leaundrae\\MVC_Course\\dating_app\\DatingApp\\API\\API.csproj",
+        "projectPath": "C:\\Users\\Leaundrae\\MVC_Course\\dating_app\\DatingApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Leaundrae\\.nuget\\packages\\",
-        "outputPath": "C:\\Documents and Settings\\Leaundrae\\MVC_Course\\dating_app\\DatingApp\\API\\obj\\",
+        "outputPath": "C:\\Users\\Leaundrae\\MVC_Course\\dating_app\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Leaundrae\\AppData\\Roaming\\NuGet\\NuGet.Config",
