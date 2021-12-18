@@ -460,3 +460,4 @@ $RECYCLE.BIN/
 .idea/*
 
 appsettings.json
+appsettings.Development.json
